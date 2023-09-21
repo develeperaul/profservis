@@ -1,0 +1,26 @@
+@mixin gilroy {
+  $path: "assets/fonts/gilroy";
+
+  @font-face {
+    font-family: "Gilroy";
+    src: url(#{$path}/ObjectSans-Regular.eot);
+    src: local("Gilroy Regular"), local("Gilroy-Regular"),
+      url(#{$path}/Gilroy-Regular.eot?#iefix) format("embedded-opentype"),
+      url(#{$path}/Gilroy-Regular.woff) format("woff"),
+      url(#{$path}/Gilroy-Regular.ttf) format("ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Gilroy";
+    src: url(#{$path}/ObjectSans-Semibold.eot);
+    src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
+      url(#{$path}/Gilroy-Semibold.eot?#iefix) format("embedded-opentype"),
+      url(#{$path}/Gilroy-Semibold.woff) format("woff"),
+      url(#{$path}/Gilroy-Semibold.ttf) format("ttf");
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+@include gilroy();

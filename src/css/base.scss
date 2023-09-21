@@ -1,0 +1,12 @@
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+  }
+  body {
+    @apply tw-text-t03 tw-font-gilroy tw-text-black;
+  }
+  h2 {
+    @apply tw-text-t01 tw-font-semibold;
+  }
+}
