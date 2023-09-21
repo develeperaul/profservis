@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163706106236",
+    "project_id": "profservice-478fa",
+    "storage_bucket": "profservice-478fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163706106236:android:ba0488b2517a46f9a0b4f9",
+        "android_client_info": {
+          "package_name": "profservice.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6KMT7CGulrtiSi_WA53Tf0-7Lru43HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
