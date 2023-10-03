@@ -37,7 +37,7 @@
           >{{ partner.phone }}</a
         >
         <p class="tw-mb-4 tw-text-t03">{{ partner.address }}</p>
-        {{ popup }}
+
         <q-btn
           v-haptics
           class="tw-bg-red tw-text-white tw-shadow-lg tw-text-t02 tw-uppercase tw-rounded"
@@ -51,7 +51,7 @@
     <q-dialog v-model="popup" maximized>
       <div class="tw-relative">
         <div
-          class="tw-bg-white tw-py-7.5 tw-px-5 tw-rounded-lg2 tw-absolute tw-bottom-10 tw-left-0 card-popup"
+          class="tw-bg-white tw-py-7.5 tw-px-5 tw-rounded-lg2 tw-absolute tw-bottom-20 tw-left-0 card-popup"
         >
           <q-btn
             class="tw-h-6 tw-w-6 tw-p-0 tw-absolute tw-top-2.5 tw-right-3"

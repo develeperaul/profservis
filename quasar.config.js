@@ -64,7 +64,10 @@ module.exports = configure(function (/* ctx */) {
 
       // publicPath: '/',
       // analyze: true,
-      env: { BASE_URL: "http://kurbanfy.beget.tech", BASE_URL_PREFIX: "/api" },
+      env: {
+        BASE_URL: "https://profservice.2apps.ru",
+        BASE_URL_PREFIX: "/api",
+      },
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
@@ -112,6 +115,12 @@ module.exports = configure(function (/* ctx */) {
     devServer: {
       // https: true
       open: true, // opens browser window automatically
+      proxy: {
+        "/api": {
+          target: "https://profservice.2apps.ru",
+          changeOrigin: true,
+        },
+      },
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#framework
